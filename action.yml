@@ -127,6 +127,7 @@ runs:
         target_branch: gh-pages
         build_dir: deploy
         keep_history: true
+        jekyll: false
       env:
         GITHUB_TOKEN: ${{ inputs.github_token }}
   
